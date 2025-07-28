@@ -1,0 +1,41 @@
+/* Noto serif */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-noto {
+  font-family: "Noto Serif", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section-margin {
+  margin: 120px 0 0 0;
+}
+
+.display-flex {
+  display: flex;
+}
+.links {
+  gap: 48px;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+nav ul li {
+  list-style: none;
+}
+
+
